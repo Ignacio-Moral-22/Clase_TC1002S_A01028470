@@ -1,7 +1,5 @@
-import numpy as np
-import pandas as pd
-
-# #Ejemplo de Clases en Python
+# import numpy as np
+# Ejemplo de Clases en Python
 # class Student():
 #     def __init__(self, name, last_name, major):
 #         self.name = name
@@ -39,9 +37,8 @@ def main():
     # Esto de arriba es igual a lo de abajito
     data_final = [f.split(',') for f in data_lines]
 
-
-
-    print(data_final)
+    for f in data_final:
+        print(f, "\n")
 
 if __name__ == '__main__':
     main()

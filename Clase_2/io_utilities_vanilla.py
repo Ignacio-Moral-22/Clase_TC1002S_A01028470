@@ -29,7 +29,7 @@ import pandas as pd
 def main():
     filepath = './Data/iris.data'
     with open(filepath,'r') as fp:
-        data = fp.readlines()
+        data = fp.read()
 
     data_lines = data.split('\n')
 
